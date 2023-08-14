@@ -163,6 +163,10 @@ ul{
     padding-top: 188px;
     background: var(--navyblue, #2E2F42);
    padding: 188 0;
+   background-image: url(../images/people-office\ 1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 
@@ -249,6 +253,19 @@ padding: 120px 0;
   
 width: calc((100% - 72px) / 4);
 
+
+}
+
+.adventages-item-top{
+    width: 264px;
+        height: 112px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: var(--cloud, #F4F4FD);
+        margin-bottom: 8px;
 
 }
 
@@ -382,6 +399,63 @@ width: calc((100% - 72px) / 4);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px
+       }
+
+       .team-item-top{
+       
+       
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        fill: var(--iris, #4D5AE5);
+        
+            
+           
+           
+        
+
+       }
+
+       .advantes-item-icon{
+        width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+            
+        
+      
+       }
+      /*--------customers------------*/
+
+
+       .customers{
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+       }
+       .customers-tittle{
+        width: 168px;
+            height: 88px;
+        font-size: 36px;
+        line-height: 1.11;
+        color:#2e2f42;
+        margin-bottom: 72px;
+        display: flex;
+            gap: 24px;
+            width: calc((100% - 120px) / 6);
+            
+           
+       }
+       .customers-list{
+        
+       
+
+
+       }
+       .customers-item-icon{
+        fill: currentColor;
+
+
        }
 
    
