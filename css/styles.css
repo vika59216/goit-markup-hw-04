@@ -163,7 +163,7 @@ ul{
     padding-top: 188px;
     background: var(--navyblue, #2E2F42);
    padding: 188 0;
-   background-image: background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
