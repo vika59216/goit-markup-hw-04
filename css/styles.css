@@ -87,6 +87,8 @@ align-items: center;
 
             position: relative;
         color: #404bbf;
+        transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+
        
         
 
@@ -100,6 +102,7 @@ align-items: center;
         line-height: 1.5;
         letter-spacing: 0.02em;
         position: relative;
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 
 
@@ -161,7 +164,17 @@ ul{
             padding-top: 24px;
           padding-bottom: 24px;
         }
-                
+            
+        
+        .header-menu-list::after{
+            content:attr();
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            height: 4px;
+            background-color: #404bbf;
+            border-radius: 2px;
+        }
 
 
 
@@ -786,7 +799,7 @@ width: calc((100% - 72px) / 4);
     }
     .media-icon-top{
         fill:#f4f4fd;
-        
+
 
     }
 
