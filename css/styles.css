@@ -409,29 +409,20 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.32px
        }
 
-       .team-item-top{
-       
+      .team-icon-list{
        
     display: flex;
         justify-content: center;
         align-items: center;
         gap: 24px;
         fill: var(--iris, #4D5AE5);
-        
-            
-           
-           
+       
         
 
        }
 
-       .team-item-icon{
-        width: 40px;
-            height: 40px;
-            flex-shrink: 0;
-            
+       .team-icon-item{
         
-      
        }
       /*--------customers------------*/
 
@@ -442,12 +433,12 @@ width: calc((100% - 72px) / 4);
 
        }
        .customers-tittle{
-        
+        text-align: center;
         font-size: 36px;
         line-height: 1.11;
         color:#2e2f42;
         margin-bottom: 72px;
-        display: flex;
+        
             
             
             
@@ -672,6 +663,49 @@ width: calc((100% - 72px) / 4);
         
     }
 
-    
+   .backdrop{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(76, 76, 76, 0.596);
+        top: 0;
+        transition: opacity 300ms linear, visibility 300ms linear;
+    }
+
+    .modal{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        width: 408px;
+           min-height: 584px; 
+            flex-shrink: 0;
+            border-radius: 4px;
+                background: var(--dairy, #FCFCFC);
+                box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+                transition: transform 300ms lineal;
+
+    }
+
+    .backdrop.is-hidden.modal{
+        transform: translate(-50%, -50%) scale(3);
+
+
+    }
+
+    .modal-close-btn{
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .is-hidden{
+        opacity: 0;
+        visibility:hidden;
+        pointer-events: none;
+
+
+    }
 
 
