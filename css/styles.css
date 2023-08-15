@@ -169,7 +169,8 @@ ul{
     padding-top: 188px;
     background: var(--navyblue, #2E2F42);
    padding: 188 0;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -417,13 +418,44 @@ width: calc((100% - 72px) / 4);
         gap: 24px;
         fill: var(--iris, #4D5AE5);
        
+       
         
 
        }
 
        .team-icon-item{
+        width: 40px;
+        height: 40px;
         
        }
+
+
+       .team-icon-modul {
+        width: 100%;
+        height: 100%;
+        background-color:#4d5ae5;
+        border-radius:50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+       }
+
+       .team-icon-modul:hover{
+        background-color: #404bbf;
+       }
+       .team-icon-modul:focus{
+        background-color: #404bbf;
+       }
+
+       .team-icon-top{
+        fill: #f4f4fd;
+
+       }
+
+
+
+
       /*--------customers------------*/
 
 
@@ -438,6 +470,8 @@ width: calc((100% - 72px) / 4);
         line-height: 1.11;
         color:#2e2f42;
         margin-bottom: 72px;
+       
+        
         
             
             
@@ -447,6 +481,7 @@ width: calc((100% - 72px) / 4);
        .customers-list{
         display: flex;
         gap: 24px;
+        
        
         
 
@@ -454,6 +489,34 @@ width: calc((100% - 72px) / 4);
        .customers-name-item{
         width: calc((100% - 120px) / 6);
         height: 88px;
+
+
+       }
+
+
+       .customers-icon-modul{
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius:4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#8e8f99;
+
+       }
+
+       .customers-icon-modul:hover{
+        border-color: #404bbf;
+        color: #404bbf;
+
+
+       }
+
+       .customers-icon-modul:focus{
+        border-color: #404bbf;
+        color: #404bbf;
+
 
 
        }
@@ -469,12 +532,8 @@ width: calc((100% - 72px) / 4);
          justify-content: center;
          color: #8e8f99;
 
-        
-
-
-
        }
-
+       
        .customers-item-link{
        
 
