@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 :root{
-border: 1px solid var(--cornflower, #E7E9FC);
+
                 --primary-font: "Roboto", sans-serif;
                 --title-font: "Raleway", sans-serif;
                 --primary-black-color: var(--slate, #434455;
@@ -186,12 +186,11 @@ ul{
 /*--------------HERO-----------*/
 
 
-.hero {padding-bottom: 188px;
-    padding-top: 188px;
+.hero {
     background: var(--navyblue, #2E2F42);
-   padding: 188 0;
+   padding: 188px 0;
    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), url(../images/people-office\1.jpg);
+        rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -702,11 +701,11 @@ width: calc((100% - 72px) / 4);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
-    .carts-top:hover{
+    .carts-top:hover .carts-cover-text{
         transform:translateY(0%);
 
         }
-        .carts-top:focus{
+        .carts-top:focus .carts-cover-text{
             transform: translateY(0%);
 
 
@@ -716,7 +715,7 @@ width: calc((100% - 72px) / 4);
 
 
     
-    .carts-top:hover{
+    .carts-top:hover .{
         box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
