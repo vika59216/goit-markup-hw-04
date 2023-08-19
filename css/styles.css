@@ -167,17 +167,25 @@ ul{
             padding-top: 24px;
           padding-bottom: 24px;
         }
+
             
-        
-       .caren::after{
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: -1px;
-            height: 4px;
-            background-color: #404bbf;
-            border-radius: 2px;
-        }
+           .current::after {
+               content: '';
+               position: absolute;
+               left: 0;
+               bottom: -1px;
+               height: 4px;
+               background-color: #404bbf;
+               border-radius: 2px;
+               width: 100%;
+           }
+    
+           .header-menu-link.current {
+               position: relative;
+               color: var(--ocean, #404BBF);
+    
+    
+           }
 
 
 
@@ -195,6 +203,7 @@ ul{
    background-position: center;
    background-size: cover;
     max-width: 1440px;
+    margin: auto;
 }
 
 
@@ -589,6 +598,7 @@ width: calc((100% - 72px) / 4);
 
     
     .portfolio-btn {
+        color: var(--iris, #4D5AE5);
         padding: 12px 24px;
         border: 1px solid #e7e9fc;
         border-radius: 4px;
@@ -745,6 +755,7 @@ width: calc((100% - 72px) / 4);
     }
     .carts-cover-text{
         position: absolute;
+        text-align: left;
        
       
     color: var(--cloud, #F4F4FD);
