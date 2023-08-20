@@ -94,7 +94,7 @@ align-items: center;
 
 }
 
-.header-menu-link.caren{
+.header-menu-link.current{
 
    /* color: var(--navyblue, #2E2F42);*/
         font-size: 16px;
